@@ -1,0 +1,104 @@
+#pomodoroTimer {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    font-size: 150px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 0;
+}
+
+.colorButton {
+    width: 45px;
+    height: 45px;
+    margin: 0 7.5px;
+    border-width: 2px;
+}
+
+#color1 {
+    background-image: linear-gradient(rgb(156, 5, 156), rgba(16, 16, 220, 0.647), cyan);
+    border-color: brown;
+}
+#color2 {
+    background-image: linear-gradient(red, rgb(255, 56, 0),orange, gold, yellow);
+    border-color: aliceblue;
+}
+#color3 {
+    background-image: linear-gradient(rgb(159, 125, 51), rgb(169, 92, 110), rgb(179, 59, 179));
+    border-color: aliceblue;
+}
+#color4 {
+    background-image: linear-gradient(rgba(184, 29, 163, 0.7), rgba(127, 73, 226, 0.661),rgba(99, 189, 222, 0.86), rgba(137, 212, 137, 0.76));
+    border-color: aliceblue;
+}
+#color5 {
+    background-image: linear-gradient(rgb(180, 45, 45),rgba(214, 74, 74, 0.9), rgba(167, 98, 131, 0.9), rgb(211, 69, 137));
+    border-color: aliceblue;
+}
+#color6 {
+    background-image: linear-gradient(rgb(15, 26, 123), rgb(6, 6, 178), blue, rgba(0, 132, 255, 0.822), rgb(17, 230, 230));
+    border-color: aliceblue;
+}
+
+#pomodoroNumber {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+#content {
+    display: grid;
+    place-items: center;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#studySessionButtons {
+    display: inline;
+    width: 450px;
+    height: 50px;
+}
+
+.studySessionButtons {
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    color: aliceblue;
+    border-top: 0;
+    border-color: aliceblue;
+    font-family: cursive;
+    font-size: medium;
+    border-right-width: 0;
+}
+
+#studyButton {
+    background-color: brown;
+    border-left-width: 0;
+}
+
+#audio {
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 420px;
+    border-color: aliceblue;
+    margin: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-image: linear-gradient(rgb(156, 5, 156), rgba(16, 16, 220, 0.647), cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    height: 100%;
+}
